@@ -1,0 +1,130 @@
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background-color: #D1C4E9;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #9575CD ;
+    color:floralwhite;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+.navbar-dark {
+    background-color: transparent;
+}
+
+Nav img{
+    width:6vw ;
+    height:11vh;
+} 
+
+.nav-link{
+    margin: 0px 15px;
+}
+
+Form .btn{
+    background: #F59494;
+    border: #F59494;
+    border-radius: 0
+}
+
+Form .inp{
+    border-bottom: 3px solid #F59494;
+    background: #D3D9ED;
+    border-radius: 0 
+}
+
+#form-container{
+    background: rgb(253, 253, 253);
+     height: fit-content;
+    width: 28%;
+    margin-left: 188px;
+}
+
+#ambulance .media-2{
+    height: 80vh;
+}
+
+#ambulance .media-2 img{
+    width:90%;
+    height: 100%;
+}
+
+#tab{
+    /* margin-left: 84px */
+}
+
+#ambulance .amb-1{
+    border:None
+}
+
+#ambulance .amb-2{
+    position: absolute;
+    top: 384px;
+    left: 64px;
+    margin-left: 8px;
+}
+/* @media only screen and (max-width:1400px) and (min-width:1100px){
+    #ambulance .amb-2{
+        top: 247px;
+
+    }
+} */
+
+@media only screen and (max-width:700px){
+    #ambulance .media-2{
+        height: 25vh;
+        width: 30vw;
+
+    }
+    #ambulance .amb-2{
+        position: absolute;
+        top: 140px;
+        left: 34px;
+        margin-left: 0px;
+        font-size: 10px;
+    }
+    #form-container{
+        background: rgb(253, 253, 253);
+         height: fit-content;
+        width: 55%;
+        margin-left: 20px;
+        height: 30%;
+    }
+    #form-container .text-center{
+        font-size: 10px;
+    }
+
+    #form-container .form-control {
+        height: 31px;
+    }
+
+    #form-container .btn{
+        height: 31px;
+        
+    }
+    #tab{
+        margin-left: 0;
+        overflow: hidden;
+        width: 90vw;
+    }
+}
